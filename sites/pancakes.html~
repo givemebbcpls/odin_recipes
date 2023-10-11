@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Pancakes</title>
+</head>
+
+<body>
+  <h1>Pancakes</h1>
+  <img src="" alt="top decoration" width="">
+  <p>Fried eggs is the most easy to cook meal. The best for breakfast, and for
+  so positive quality everybody have to know how to cook it.</p>
+  <img src="../images/cooking_man_pot.svg" alt="cooking man with pot" width="500">
+  <p>Ingridients:
+    <ul>
+      <li>Eggs (2 or 3)</li>
+      <li>Salt and pepper</li>
+    </ul>
+  </p>
+  <p>Steps:
+    <ol>
+      <li>Heat the oil on pot</li>
+      <li>Crack eggs into the pot, season it and fry about 3-4 minutes</li>
+    </ol>
+  </p>
+  <img src="../images/fried_eggs.svg" alt="fried eggs" width="500">
+	<p><a href="../index.html">Back to Home</a><p>
+  <img src="" alt="bottom decoration" width="">
+  <p>If you want to contact me:
+  <a href="https://t.me/kanyecudition">Arkadi</a></p>
+  <p><a href="https://storyset.com/">Images by storyset</a></p>
+  <p><a href="https://www.vecteezy.com/">Images by vecteezy</a></p>
+</body>
+</html>
+
