@@ -1,0 +1,25 @@
+* {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+body {
+	background-color: #FFFAEB;
+	width: 500px;
+}
+
+.main_list li {
+	background-color: #FFC011;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.preview {
+	width: 200px;
+}
+
+.copyright {
+	font-size: 10px;
+}
