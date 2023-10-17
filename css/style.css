@@ -1,25 +1,147 @@
 * {
-	font-family: Arial, sans-serif;
-	text-align: center;
 }
 
 body {
+	box-sizing: border-box;
 	background-color: #FFFAEB;
 	width: 500px;
+	margin: 0 auto;
+	color: #33535f;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 300;
+	padding: 50px 0px;
+}
+
+.main_list {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin: 15px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #33535f;
+}
+
+a:hover {
+	color: #fabb1e;
+}
+
+.title {
+	font-family:"Gabarito", sans-serif;
+	font-size: 82px;
+	font-weight: 900;
+	text-align: right;
+	color: #57747c;
+	border-top: 3px solid #57747c;
+	border-left: 3px solid #57747c;
+	margin: 15px 0;
+	/*padding: 0 0 0 17px;*/
+}
+
+.intro {
+	width: 500px;
+	text-align: justify;
+	margin: 15px 0;
+}
+
+.main_pic {
+	width: 500px;
+	height: auto;
 }
 
 .main_list li {
-	background-color: #FFC011;
+	box-sizing: border-box;
+	background-color: #fabb1e;
+	padding: 10px;
+	border: 1px solid #fabb1e;
+	border-radius: 5px;
 }
 
-ul {
-	list-style-type: none;
+.main_list li:hover {
+	box-sizing: border-box;
+	background-color: #fffaeb;
+	color: #fabb1e;
+	border: 1px solid #fabb1e;
+}
+
+.main_list a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #fffaeb;
+	text-shadow: 2px 2px #57747c;
+}
+
+.list_point {
+	width: 240px;
+	height: 60px;
+	box-sizing: border-box;
+	font-size: 24px;
+	vertical-align: top;
+	display: inline-block;
+	border-top: 3px solid #fffaeb;
+	border-left: 3px solid #fffaeb;
+	padding: 15px 0 0 15px;
 }
 
 .preview {
-	width: 200px;
+	width: 60px;
+	height: 60px;
+	border-style: solid;
+	border-radius: 100%;
+	border-width: 0;
+	background-color: #fffaeb;
+	margin-left: 166px;
+}
+
+.contact {
+	text-align: center;
 }
 
 .copyright {
 	font-size: 10px;
+	text-align: center;
+}
+
+.dish {
+	width: 300px;
+	display: block;
+	margin: 15px auto;
+}
+
+.subtitle {
+	color: #57747c;
+	border-top: 3px solid #57747c;
+	border-left: 3px solid #57747c;
+	margin: 0;
+	padding: 10px;
+	text-align: right;
+}
+
+.card {
+	background-color: #fabb1e;
+	padding: 10px;
+	vertical-align: top;
+	margin: 15px 0;
+	border: 0 solid #fabb1e;
+	border-radius: 5px;
+}
+
+.card li {
+	margin: 0;
+	padding: 5px;
+}
+
+.ingridients, .steps {
+	background-color: #fffaeb;
+	padding-inline-start: 30px;
+	border: 0 solid #fffaeb;
+	border-radius: 5px;
+}	
+
+.home {
+	text-align: center;
 }
